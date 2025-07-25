@@ -111,6 +111,7 @@ window#waybar.hidden {
 
 #backlight,
 #battery,
+#bluetooth,
 #pulseaudio,
 #network {
   background-color: #252733;
@@ -147,6 +148,7 @@ window#waybar.hidden {
   padding-right: 5px;
   padding-left: 8px;
   font-size: 21.2px;
+  border-radius: 0px 8px 8px 0px;
 }
 
 #network {
@@ -177,6 +179,10 @@ window#waybar.hidden {
   padding-left: 6px;
   padding-right: 12px;
   font-size: 22px;
+}
+
+#bluetooth{
+  color: #1a5fb4;
 }
 
 #battery.charging { 
