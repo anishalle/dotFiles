@@ -13,8 +13,7 @@ there's a possibility that there are some redundant things (like the hyprpolkita
 install yay for rofi-bluetooth-git
 
 `sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si`
-```
-```
+
 
 `yay -S rofi-bluetooth-git`
 
